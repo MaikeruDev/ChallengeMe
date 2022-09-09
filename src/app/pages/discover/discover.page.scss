@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Averta;
+    src: url("../../../assets/AvertaDemo-ExtraBoldItalic.otf");
+}
+
+ion-content{
+    ion-title.header{
+        text-align: center;
+        font-family: 'Averta';
+        font-size: 50px;
+        margin-top: 12%; 
+    }
+
+    ion-searchbar{
+        width: 85vw;
+        margin: auto;
+    }
+
+    ion-skeleton-text {
+        --border-radius: 9999px;
+    }
+
+    ion-list, ion-item{
+        background: transparent;
+        --background: transparent;
+    }
+}

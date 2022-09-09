@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Averta;
+    src: url("../../../assets/AvertaDemo-ExtraBoldItalic.otf");
+}
+
+ion-content{
+    ion-title.header{
+        text-align: center;
+        font-family: 'Averta';
+        font-size: 50px;
+        margin-top: 12%; 
+        white-space: normal;
+    }
+    ion-item{
+        border: 3.5px solid var(--ion-color-secondary);
+        margin: 15px 30px 15px 30px;
+        border-radius: 15px;
+        ion-input{
+            border: transparent;
+            --border: transparent;
+        }
+    }
+    ion-button.loginBtn{
+        margin: 15px 32px 15px 32px;
+        color: black !important;
+        --color: black !important;
+        --ion-color-contrast: black !important;
+        height: 45px;
+        text-transform: none;
+        font-family: 'Comforta', sans-serif !important;
+        --border-radius: 10px !important;
+        ion-icon{
+            padding-top: 2px;
+        }
+    }
+} 

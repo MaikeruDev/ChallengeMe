@@ -1,0 +1,38 @@
+<ion-header class="ion-no-border">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-title class="header" color="primary">
+    Feed
+    <ion-icon style="position: absolute; right: 10px; top: 7.5px; cursor: pointer;" name="people-outline"></ion-icon>
+  </ion-title>
+
+  <ion-card style="border-radius: 30px">
+    <ion-card-header>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="https://i1.sndcdn.com/avatars-twM1pq6gSk4YzN4F-N4zKuw-t500x500.jpg" />
+        </ion-avatar>
+        <ion-label>SquirtMaster</ion-label>
+      </ion-item>
+      <p style="margin-left: 60px; margin-bottom: 0; margin-top: 0;">Just completed Challenge #821</p> 
+    </ion-card-header>
+    <ion-card-content>
+      <p style="color: var(--ion-color-secondary); margin-bottom: 10px; margin-left: 60px">I just shit my pants doing that challenge lmao</p>
+      <ion-img style="width: 65vw; margin-left: 60px; margin-bottom: 35px;" src="https://via.placeholder.com/150"></ion-img>
+    
+      <ion-buttons style="position: absolute; right: 10px; bottom: 12px;">
+        <ion-button (click)="onClick()" fill="">
+          <ion-icon slot="start" name="chevron-up"></ion-icon>
+          2342
+        </ion-button>
+        <ion-button (click)="onClick()" fill="">
+          <ion-icon slot="start" name="chevron-down"></ion-icon>
+          241
+        </ion-button>
+      </ion-buttons>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

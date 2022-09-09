@@ -1,0 +1,26 @@
+<ion-header>
+  
+</ion-header>
+
+<ion-content>
+    <ion-img src="../../assets/icon/brandmark-design.svg"></ion-img>
+
+  <ion-item lines="none">
+    <ion-label position="stacked">E-Mail</ion-label>
+    <ion-input [(ngModel)]="email" type="email"></ion-input>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-label position="stacked">Password</ion-label>
+    <ion-input [(ngModel)]="password" type="password"></ion-input>
+  </ion-item>
+
+  <ion-button (click)="login()" color="secondary" class="loginBtn no-ripple" expand="block">
+    <p>Login</p>
+    <ion-icon slot="end" name="chevron-forward"></ion-icon>
+  </ion-button>
+
+  <ion-text (click)="navigateTo('/register')" color="secondary" class="ion-text-center registerText">
+    <p>Click to Register</p>
+  </ion-text>
+
+</ion-content>

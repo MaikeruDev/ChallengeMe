@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;600&display=swap');
+@font-face {
+    font-family: Averta;
+    src: url("../../../assets/AvertaDemo-ExtraBoldItalic.otf");
+}
+
+ion-header{
+    ion-toolbar{
+        ion-title.header{
+            font-family: 'Averta';
+            font-size: 50px;
+            text-align: center;
+            margin-top: 7%;
+        }
+        ion-buttons{
+            position: absolute;
+            top: 40px;
+            right: 5px;
+        }
+    }
+    div.pfp{
+        padding-top: 20px;
+        background: var(--ion-tab-bar-background) !important;
+        padding-bottom: 15px;
+        ion-avatar{
+            margin: auto;
+            width: 120px;
+            height: 120px;
+        }
+        ion-title{
+            margin-top: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+        p{
+            word-wrap: break-word;
+            margin: 15px 20px 0px 20px;
+            color: rgba(214, 214, 214, 0.855);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+        }
+    }
+}
+
+ion-content{
+    ion-grid{
+        margin-top: 15px;
+        ion-row.text{
+            ion-col{
+                opacity: 0.7;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+        ion-row.nums{
+            ion-col{
+                font-size: 20px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+    canvas{
+        margin-top: 25px;
+    }
+}
