@@ -1,0 +1,27 @@
+<ion-header class="ion-no-border">
+  
+</ion-header>
+
+<ion-content>
+  <ion-title class="header" color="primary">
+    New Challenge
+  </ion-title>
+
+  <ion-item lines="none">
+    <ion-label position="stacked">Challenge Name</ion-label>
+    <ion-input [(ngModel)]="c_name" type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Challenge Description</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-datetime-button datetime="datetime"></ion-datetime-button>
+
+    <ion-modal [keepContentsMounted]="true">
+      <ng-template>
+        <ion-datetime id="datetime"></ion-datetime>
+      </ng-template>
+    </ion-modal>
+  </ion-item>
+</ion-content>
